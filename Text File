@@ -1,0 +1,184 @@
+ 
++ crunch 8 10 ngayeutung | aircrack-ng /root/Desktop/Tung_Sip_Hong-10:6F:3F:E1:5F:1C.cap -b 10:6F:3F:E1:5F:1C -w-
+aircrack-ng handshakerfile -w file text
+
++ hd sua loi bat google-chrome khong chay, vao root/usr/share/(search goog chon google-chrome.Desktop) chuot phai chon cai co comand roi sua thanh abc%U --no-sandbox
++ apt-get install unrar
+
+dnf install unrar
+
+giai nen tai cho va giai nen file ko thu muc (unrar e tenfile.rar) 
+
+giai ne co duong dan (unrar e tenfile.rar /HOME/) 
+
+giai en file nguyen ven co thu muc (unrar x tenfile.rar....co duong dan: unrar x /root/Desktop/file.rar /root/Desktop)
+
+( Step 3: How to List a RAR File in Linux
+To list a files inside a archive file use unrar l option. It will display the list of files with their sizes, date, time and permissions. unrar l tecmint.rar ) 
+
+(Step 4: How to Test a RAR File in Linux
+To test an integrity of a archive file, use option unrar t. The below command will perform a complete integrity check for each file and displays the status of the file. unrar t tenfile.rar)
+nen file
++ apt-get install rar
+
+rar a tenfile.rar tenfile (luu y day la khi o duogn dan dien tai co file can nen va file luu chu~)
+nen o bat ky cho nao (rar a /root/abc/tenfile.rar(vi tri duong dan file sau khi nen ) /root/abcd/tenfile(day la duong dan file can nen))
+nen co pass (rar a -p tecmint.rar)
++cai unikey
+apt-get install ibus-unikey...ibus restart
+hd cài boot usb kali trên linux để cài linux(https://kali.training/topic/downloading-kali-linux/?fbclid=IwAR1lg6UvIXfXIpwnEopvdpnUQduO3QJW50_dZN3ux3u8u1l1QYfDA3w8qYE#sect.copying-the-image)
+đầu tien mở terminal chạy apt-get install gnome-disk-utility xong chạy gnome-disks
++ copy file 
+cp -p /root/Downloads/abc /root/Desktop/cba
+
++ giai nen file zip unzip Slide-20190318T151026Z-001.zip -d /root/Desktop
+import -window root -pause 5 Pictures/fileName.png
+
+
+root@kali:~/eclipse-workspace/project_Git/project_github# git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        a
+
+nothing added to commit but untracked files present (use "git add" to track)
+root@kali:~/eclipse-workspace/project_Git/project_github# git add .
+root@kali:~/eclipse-workspace/project_Git/project_github# git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   a
+
+root@kali:~/eclipse-workspace/project_Git/project_github# git commit -m "first commit"
+[master (root-commit) c16c765] first commit
+ Committer: root <root@localhost.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 a
+root@kali:~/eclipse-workspace/project_Git/project_github# git config --global user.email "trinhphuctrungk56utc@gmail.com"
+root@kali:~/eclipse-workspace/project_Git/project_github# git config --global user.name "trung"
+root@kali:~/eclipse-workspace/project_Git/project_github# git commit -m "first commit"                                   
+On branch master
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+root@kali:~/eclipse-workspace/project_Git/project_github# git push origin master
+Username for 'https://github.com': trinhphuctrungk56utc@gmail.com
+Password for 'https://trinhphuctrungk56utc@gmail.com@github.com': 
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 202 bytes | 202.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/phuctrungk56utc/project_github.git
+ * [new branch]      master -> master
+root@kali:~/eclipse-workspace/project_Git/project_github# cd 
+bai1/ .git/ 
+root@kali:~/eclipse-workspace/project_Git/project_github# cd bai1/
+root@kali:~/eclipse-workspace/project_Git/project_github/bai1# touch new
+root@kali:~/eclipse-workspace/project_Git/project_github/bai1# ls
+new
+root@kali:~/eclipse-workspace/project_Git/project_github/bai1# cd ..
+root@kali:~/eclipse-workspace/project_Git/project_github# git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        bai1/
+
+nothing added to commit but untracked files present (use "git add" to track)
+root@kali:~/eclipse-workspace/project_Git/project_github# echo "1" >> a 
+root@kali:~/eclipse-workspace/project_Git/project_github# cat a
+ 
+1
+root@kali:~/eclipse-workspace/project_Git/project_github# git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   a
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        bai1/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+root@kali:~/eclipse-workspace/project_Git/project_github# add bai1/
+bash: add: command not found
+root@kali:~/eclipse-workspace/project_Git/project_github# git add bai1/
+root@kali:~/eclipse-workspace/project_Git/project_github# ls
+a  bai1
+root@kali:~/eclipse-workspace/project_Git/project_github# rm -r a
+root@kali:~/eclipse-workspace/project_Git/project_github# ls
+bai1
+root@kali:~/eclipse-workspace/project_Git/project_github# git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   bai1/new
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    a
+
+root@kali:~/eclipse-workspace/project_Git/project_github# git add .
+root@kali:~/eclipse-workspace/project_Git/project_github# git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        deleted:    a
+        new file:   bai1/new
+
+root@kali:~/eclipse-workspace/project_Git/project_github# git commit -m pate
+[master 7ddc317] pate
+ 2 files changed, 1 deletion(-)
+ delete mode 100644 a
+ create mode 100644 bai1/new
+root@kali:~/eclipse-workspace/project_Git/project_github# git push
+Username for 'https://github.com': trinhphuctrungk56utc2gmail.com
+Password for 'https://trinhphuctrungk56utc2gmail.com@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/phuctrungk56utc/project_github.git/'
+root@kali:~/eclipse-workspace/project_Git/project_github# git push
+Username for 'https://github.com': trinhphuctrungk56utc@gmail.com
+Password for 'https://trinhphuctrungk56utc@gmail.com@github.com': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (4/4), 274 bytes | 274.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/phuctrungk56utc/project_github.git
+   c16c765..7ddc317  master -> master
+root@kali:~/eclipse-workspace/project_Git/project_github# 
